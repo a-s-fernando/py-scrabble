@@ -23,8 +23,8 @@ def test_valid_rack_from_bag():
 
 
 def test_valid_word():
-    pass
+    assert validate_word('test')
 
 
 def test_invalid_word():
-    pass
+    assert not validate_word('testtttt')
